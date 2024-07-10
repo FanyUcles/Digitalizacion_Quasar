@@ -1,6 +1,8 @@
 # Quasar App (digitalizacion)
 
-Proyecto de Digitalizacion de declaraciones
+Proyecto de Digitalizacion para obtener el numero de declaracion, utilizando Tesseract para el OCR y pdfjsLib para detecta el numero, y guardar el pdf con el numero correspondiente.
+diseñado para escanear documentos en fisico, para tenerlos almacenados de manera digital.
+Quasar, Vue.js, JavaScript
 
 ## Install the dependencies
 ```bash
