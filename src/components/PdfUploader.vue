@@ -17,7 +17,7 @@
         <p>
           No se encontró el numero de declaración. Por favor, ingrese el valor:
         </p>
-        <q-input v-model="manualNumber" label="Número de 11 dígitos" />
+        <q-input v-model="manualNumber" label="Número de declaración" />
         <q-btn label="Confirmar" @click="confirmManualNumber"></q-btn>
       </div>
       <q-dialog v-model="loadingDialog">
