@@ -8,6 +8,14 @@ const routes = [
         path: "pdf-uploader",
         component: () => import("components/PdfUploader.vue"),
       },
+      {
+        path: "carpetas-pendientes",
+        component: () => import("components/Revision_carpetas.vue"),
+      },
+      {
+        path: "contenido",
+        component: () => import("components/Revision_archivos.vue"),
+      },
     ],
   },
 

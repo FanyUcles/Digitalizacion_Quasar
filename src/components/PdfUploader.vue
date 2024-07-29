@@ -17,8 +17,16 @@
         <p>
           No se encontró el numero de declaración. Por favor, ingrese el valor:
         </p>
-        <q-input v-model="manualNumber" label="Número de declaración" />
-        <q-btn label="Confirmar" @click="confirmManualNumber"></q-btn>
+        <q-input
+          class="q-pa-md"
+          v-model="manualNumber"
+          label="Número de declaración"
+        />
+        <q-btn
+          class="flex flex-center"
+          label="Confirmar"
+          @click="confirmManualNumber"
+        ></q-btn>
       </div>
       <q-dialog v-model="loadingDialog">
         <q-card>
@@ -296,5 +304,11 @@ export default {
 
 .manual-entry button:hover {
   background-color: #0b233a;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
