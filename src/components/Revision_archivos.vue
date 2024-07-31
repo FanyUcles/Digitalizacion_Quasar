@@ -102,7 +102,7 @@ export default {
 
     onMounted(() => {
       const folderName = route.query.folder;
-      // Aquí puedes hacer una llamada a una API para obtener los detalles de la carpeta
+      // Aquí hacer una llamada a una API para obtener los detalles de la carpeta
       // Ejemplo:
       if (folderName === "E8F7C8") {
         folder.owner = "Luis Reyes";
@@ -201,6 +201,6 @@ iframe {
 }
 
 .previewed {
-  background-color: greenyellow !important; /* Use !important to ensure the style is applied */
+  background-color: greenyellow !important; /* !important to ensure the style is applied */
 }
 </style>

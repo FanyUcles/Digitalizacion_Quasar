@@ -60,7 +60,7 @@ import { useRouter } from "vue-router";
 export default {
   setup() {
     const router = useRouter();
-    const loggedOwner = "Fany Uclés"; // Aquí puedes obtener dinámicamente el nombre del usuario logueado
+    const loggedOwner = "Fany Uclés"; //obtener dinámicamente el nombre del usuario logueado
 
     const folders = reactive([
       {
