@@ -16,6 +16,11 @@ const routes = [
         path: "contenido",
         component: () => import("components/Revision_archivos.vue"),
       },
+      {
+        path: "GuardarCarpetas",
+        component: () => import("components/GuardarCarpeta.vue"),
+      },
+
     ],
   },
 
