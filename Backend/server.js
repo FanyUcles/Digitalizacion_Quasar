@@ -49,6 +49,7 @@ app.post("/move/:userName", (req, res) => {
 
   fs.readdir(tempPath, (err, files) => {
     if (err) {
+
       console.error("Error al leer la carpeta temporal:", err);
       return res.status(500).send("Error al leer la carpeta temporal");
     }

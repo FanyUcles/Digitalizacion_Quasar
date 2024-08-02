@@ -42,7 +42,7 @@ export default {
   setup() {
     const fileInput = ref(null);
     const fileNames = ref([]);
-    const userName = ref("Kevin"); // Puedes cambiar el nombre de usuario aquí
+    const userName = ref("Kevin"); // se puede cambiar el nombre de usuario aquí
 
     const selectFiles = () => {
       fileInput.value.click();
@@ -65,7 +65,7 @@ export default {
           ...files.map((file) => file.name),
         ];
       } catch (error) {
-        console.error("Error uploading files", error);
+        console.error("Error al  cargar archivos", error);
       }
     };
 
@@ -74,7 +74,7 @@ export default {
         await axios.post(`http://localhost:3000/move/${userName.value}`);
         fileNames.value = [];
       } catch (error) {
-        console.error("Error moving files", error);
+        console.error("Error mover archivos", error);
       }
     };
 
